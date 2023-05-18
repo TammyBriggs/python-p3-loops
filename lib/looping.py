@@ -10,7 +10,9 @@ def happy_new_year():
     pass
 
 def square_integers(int_list):
-    print([num ** 2 for num in int_list])
+    squared_numbers = ([num ** 2 for num in int_list])
+    print(squared_numbers)
+    return squared_numbers
     pass
 
 def fizzbuzz():
@@ -26,5 +28,5 @@ def fizzbuzz():
     pass
 
 # happy_new_year()
-# square_integers([1,2,3,10,20])
+square_integers([-1,-2,-3,-10,-20])
 # fizzbuzz()
